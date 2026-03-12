@@ -1,1 +1,49 @@
-site_name: My Docs
+site_url: https://emperor-kat.github.io/barnaul-fridge/
+site_name: Barnaul Refrigerator Guide
+site_description: Your complete guide to choosing the best refrigerator in Barnaul
+site_author: Appliance Expert
+
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - toc.integrate
+    - search.suggest
+    - search.highlight
+  palette:
+    primary: blue
+    accent: deep orange
+
+extra:
+  generator: false
+extra_css:
+  - stylesheets/extra.css
+
+plugins:
+  - search
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+  - pymdownx.tabbed:
+      alternate_style: true
+  - attr_list
+  - tables
+
+nav:
+  - Home: index.md
+  - Buying Guide:
+      - Overview: guide/overview.md
+      - Type: guide/types.md
+      - Brand: guide/brands.md
+  - Barnaul Stores:
+      - Store Reviews: stores/index.md
+      - Price Comparison: stores/prices.md
