@@ -1,17 +1,32 @@
-# Welcome to MkDocs
+# Welcome to Barnaul Refrigerator Guide! ❄️
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+<img src="images/modern-fridge.png" alt="Modern Refrigerator" width="300" align="right">
 
-## Commands
+Your comprehensive guide to choosing the perfect refrigerator in Barnaul. We provide expert reviews, price comparisons, and practical advice to help you make the best decision.
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+!!! success "Quick Tip"
+    The average refrigerator in Barnaul lasts 10-15 years, so choose wisely!
 
-## Project layout
+## What You'll Find Here:
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+- 🏷️ **Buying Guide** - Detailed comparisons and recommendations
+
+- 🏪 **Store Reviews** - Where to buy in Barnaul
+
+- 💰 **Price Comparison** - Best deals and discounts
+
+- 🔧 **Maintenance** - Installation and care tips
+
+=== "First-time Buyer"
+    Start with our [comprehensive guide](guide/overview.md) to understand key features
+
+=== "Replacing Old Unit"
+    Check [current models](guide/types.md) and [local prices](stores/prices.md)
+
+=== "Specific Needs"
+    Compare [different types](guide/types.md) and [brands](guide/brands.md)
+
+
+---
+
+> *"A good refrigerator is not an expense, but an investment in your family's health and comfort"* - Local Appliance Expert
