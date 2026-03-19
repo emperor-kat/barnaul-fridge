@@ -289,3 +289,20 @@ mkdocs build
 
 mkdocs gh-deploy
 ```
+
+# Linters
+
+Use official guides for installing linters:
+
+- **[CSpell](https://github.com/streetsidesoftware/cspell)** - spell checking for code and documentation.
+- **[Vale](https://github.com/errata-ai/vale)** - srammar, style, and prose linter.
+- **[markdownlint](https://github.com/DavidAnson/markdownlint)** - Markdown style checker.
+- **[lychee](https://github.com/lycheeverse/lychee)** - link checker for documentation.
+
+You can integrate them into the CI/CD pipeline.
+
+# CI/CD pipeline
+
+To integrate linters:
+1. Create the `.github/workflows` folder.
+2. Add `yml` files with action information. You can use mine in this repository.
